@@ -1,4 +1,4 @@
-# Assignment - Senior Frontend (React js/Typescript) at Logicea
+# Assignment for Senior Frontend at Logicea
 
 ## API
 
