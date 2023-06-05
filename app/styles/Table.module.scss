@@ -1,0 +1,19 @@
+// .table{
+// }
+
+.table,  .th, .td{
+    border-right: 1px solid black;
+    border-collapse: collapse;
+    padding: .75rem 2rem;
+}
+
+.table, .th, .td:last-of-type {
+    border-right: 0;
+  }
+
+
+.tomato{color: tomato;}
+.orange{color: orange;}
+.green{color: green;}
+.yellow{color: yellow;}
+.tomato, .green,.orange,.yellow{   padding: .75rem 2rem;}
