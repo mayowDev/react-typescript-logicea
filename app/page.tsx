@@ -1,13 +1,14 @@
 
-import styles from './page.module.css'
-import Jokes from './pages/JokesListing'
-
+import  './page.module.css'
+import JokesList from './pages/jokes.server'
+import Navbar from './components/Navbar'
 import ThemeContextWrapper from './context/themeWrapper';
 
 export default function Home() {
   return (
     < ThemeContextWrapper>
-      <Jokes/>
+      <Navbar/>
+      <JokesList/>
     </ThemeContextWrapper>
   )
 }

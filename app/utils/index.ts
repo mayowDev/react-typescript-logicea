@@ -1,7 +1,7 @@
 export const formatEmail = (email:string)=>{
     const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g
     const isEmail= (mail:string) =>  regex.test(mail)
-    //validate if the author is email or just name 
+
     if(isEmail(email)){
         const partialEmail = email.split("@");
         let fristPart = partialEmail[0];
@@ -16,6 +16,8 @@ export const formatEmail = (email:string)=>{
 
 
 export const formatDate = (timestamp:number)=>{
+    if(!timestamp){return timestamp}
+    
     let date =  new Date(timestamp)
     let formatedDate =  date.toLocaleDateString("en-GB", 
      { day: 'numeric', year: 'numeric', month: 'long' }); // DD MM YYYY
