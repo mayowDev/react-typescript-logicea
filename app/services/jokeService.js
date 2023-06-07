@@ -12,8 +12,10 @@ export function getJokes() {
 }
 
 
-export function getJoke(jokeId) {
-  return http.get(jokeUrl(jokeId));
+export async function getJoke(jokeId) {
+  const res = await fetch(jokeUrl(jokeId));
+  const joke = await res.json();
+  return joke;
 }
 
 export function saveJoke(joke) {

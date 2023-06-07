@@ -2,7 +2,7 @@
   min-height: 50vh;
 }
 
-.table,  .th, .td{
+.table,  .th, .td, .title{
     border-right: 1px solid black;
     border-collapse: collapse;
     padding: .5rem 2rem;
@@ -11,6 +11,11 @@
 .table, .th, .td:last-of-type {
     border-right: 0;
   }
+
+.title{
+  cursor: pointer;
+  &:hover{text-decoration: underline;}
+}
 
 
 .tomato{color: tomato;}

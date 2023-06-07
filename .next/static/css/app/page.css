@@ -73,21 +73,6 @@
   filter: blur(45px);
   transform: translateZ(0);
 }
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[9].use[5]!./app/styles/Nav.module.scss ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.Nav_nav__0RbYf {
-  font-weight: "bold";
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-  padding: 1rem;
-}
-
-.Nav_navLink__uDHyy {
-  text-decoration: none;
-  color: black;
-}
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[13].use[5]!./app/components/Dropdown/style.scss ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -183,7 +168,7 @@
   min-height: 50vh;
 }
 
-.Table_table__Q6c5H, .Table_th__U9_f4, .Table_td__OWT5_ {
+.Table_table__Q6c5H, .Table_th__U9_f4, .Table_td__OWT5_, .Table_title__m3dQE {
   border-right: 1px solid black;
   border-collapse: collapse;
   padding: 0.5rem 2rem;
@@ -191,6 +176,13 @@
 
 .Table_table__Q6c5H, .Table_th__U9_f4, .Table_td__OWT5_:last-of-type {
   border-right: 0;
+}
+
+.Table_title__m3dQE {
+  cursor: pointer;
+}
+.Table_title__m3dQE:hover {
+  text-decoration: underline;
 }
 
 .Table_tomato__y_F_j {
