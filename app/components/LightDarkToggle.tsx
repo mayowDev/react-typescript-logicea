@@ -10,12 +10,13 @@ function ThemeToggle() {
         <ThemeContext.Consumer>
         {({ changeTheme }) => (
             <button
+            className='button'
                 onClick={() => {
                 setDarkMode(!darkMode);
                 changeTheme(darkMode ? themes.light : themes.dark);
             }}
             >
-            <span className="block">Switch to {darkMode?"Light":"Dark"}</span>
+            <span className="block">Switch theme</span>
             </button>
         )}
         </ThemeContext.Consumer>

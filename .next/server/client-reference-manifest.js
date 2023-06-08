@@ -230,6 +230,84 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./app/components/Navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/Navbar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/Navbar.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/Navbar.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/context/themeWrapper.js": {
+      "*": {
+        "id": "(sc_client)/./app/context/themeWrapper.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/context/themeWrapper.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/context/themeWrapper.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/components/Dropdown/Dropdown.tsx": {
       "*": {
         "id": "(sc_client)/./app/components/Dropdown/Dropdown.tsx",
@@ -282,32 +360,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/context/themeWrapper.js": {
-      "*": {
-        "id": "(sc_client)/./app/context/themeWrapper.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/context/themeWrapper.js",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/context/themeWrapper.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./app/jokes/JokesComponent.tsx": {
       "*": {
         "id": "(sc_client)/./app/jokes/JokesComponent.tsx",
@@ -339,7 +391,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/react-toastify/dist/react-toastify.js",
         "name": "*",
         "chunks": [
-          "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -347,7 +399,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/react-toastify/dist/react-toastify.js",
         "name": "",
         "chunks": [
-          "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -355,7 +407,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/react-toastify/dist/react-toastify.js",
         "name": "Bounce",
         "chunks": [
-          "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -363,7 +415,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/react-toastify/dist/react-toastify.js",
         "name": "Flip",
         "chunks": [
-          "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -371,7 +423,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/react-toastify/dist/react-toastify.js",
         "name": "Icons",
         "chunks": [
-          "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -379,7 +431,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/react-toastify/dist/react-toastify.js",
         "name": "Slide",
         "chunks": [
-          "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -387,7 +439,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/react-toastify/dist/react-toastify.js",
         "name": "ToastContainer",
         "chunks": [
-          "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -395,7 +447,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/react-toastify/dist/react-toastify.js",
         "name": "Zoom",
         "chunks": [
-          "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -403,7 +455,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/react-toastify/dist/react-toastify.js",
         "name": "collapseToast",
         "chunks": [
-          "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -411,7 +463,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/react-toastify/dist/react-toastify.js",
         "name": "cssTransition",
         "chunks": [
-          "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -419,7 +471,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/react-toastify/dist/react-toastify.js",
         "name": "toast",
         "chunks": [
-          "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -427,7 +479,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/react-toastify/dist/react-toastify.js",
         "name": "useToast",
         "chunks": [
-          "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -435,59 +487,85 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/react-toastify/dist/react-toastify.js",
         "name": "useToastContainer",
         "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/Form/Form.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/Form/Form.tsx",
+        "name": "*",
+        "chunks": [
+          "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/Form/Form.tsx",
+        "name": "",
+        "chunks": [
+          "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/Form/Form.tsx",
+        "name": "default",
+        "chunks": [
+          "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/jokes/[id]/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/jokes/[id]/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/jokes/[id]/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/jokes/[id]/page.tsx",
+        "name": "default",
+        "chunks": [
           "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
         ],
         "async": false
       }
     },
-    "(app-client)/./app/components/Navbar.tsx": {
+    "(app-client)/./app/jokes/edit/page.tsx": {
       "*": {
-        "id": "(sc_client)/./app/components/Navbar.tsx",
+        "id": "(sc_client)/./app/jokes/edit/page.tsx",
         "name": "*",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./app/components/Navbar.tsx",
+        "id": "(sc_client)/./app/jokes/edit/page.tsx",
         "name": "",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/components/Navbar.tsx",
+        "id": "(sc_client)/./app/jokes/edit/page.tsx",
         "name": "default",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
         ],
         "async": false
       }
@@ -495,11 +573,11 @@ self.__RSC_MANIFEST={
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/Users/mayow/sideprojects/react-typescript-logicea/app/page": [
-      "static/css/app/page.css"
-    ],
     "/Users/mayow/sideprojects/react-typescript-logicea/app/layout": [
       "static/css/app/layout.css"
+    ],
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/page": [
+      "static/css/app/page.css"
     ]
   },
   "clientModules": {
@@ -1175,6 +1253,123 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/styles/Nav.module.scss#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/components/Navbar.tsx": {
+      "id": "(app-client)/./app/components/Navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/components/Navbar.tsx#": {
+      "id": "(app-client)/./app/components/Navbar.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/components/Navbar.tsx#default": {
+      "id": "(app-client)/./app/components/Navbar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/context/themeWrapper.js": {
+      "id": "(app-client)/./app/context/themeWrapper.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/context/themeWrapper.js#": {
+      "id": "(app-client)/./app/context/themeWrapper.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/context/themeWrapper.js#default": {
+      "id": "(app-client)/./app/context/themeWrapper.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "/Users/mayow/sideprojects/react-typescript-logicea/app/components/Dropdown/style.scss#": {
       "id": "null",
       "name": "default",
@@ -1251,30 +1446,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/mayow/sideprojects/react-typescript-logicea/app/context/themeWrapper.js": {
-      "id": "(app-client)/./app/context/themeWrapper.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mayow/sideprojects/react-typescript-logicea/app/context/themeWrapper.js#": {
-      "id": "(app-client)/./app/context/themeWrapper.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mayow/sideprojects/react-typescript-logicea/app/context/themeWrapper.js#default": {
-      "id": "(app-client)/./app/context/themeWrapper.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "/Users/mayow/sideprojects/react-typescript-logicea/app/jokes/JokesComponent.tsx": {
       "id": "(app-client)/./app/jokes/JokesComponent.tsx",
       "name": "*",
@@ -1303,7 +1474,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/react-toastify/dist/react-toastify.js",
       "name": "*",
       "chunks": [
-        "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -1311,7 +1482,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/react-toastify/dist/react-toastify.js",
       "name": "",
       "chunks": [
-        "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -1319,7 +1490,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/react-toastify/dist/react-toastify.js",
       "name": "Bounce",
       "chunks": [
-        "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -1327,7 +1498,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/react-toastify/dist/react-toastify.js",
       "name": "Flip",
       "chunks": [
-        "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -1335,7 +1506,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/react-toastify/dist/react-toastify.js",
       "name": "Icons",
       "chunks": [
-        "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -1343,7 +1514,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/react-toastify/dist/react-toastify.js",
       "name": "Slide",
       "chunks": [
-        "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -1351,7 +1522,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/react-toastify/dist/react-toastify.js",
       "name": "ToastContainer",
       "chunks": [
-        "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -1359,7 +1530,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/react-toastify/dist/react-toastify.js",
       "name": "Zoom",
       "chunks": [
-        "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -1367,7 +1538,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/react-toastify/dist/react-toastify.js",
       "name": "collapseToast",
       "chunks": [
-        "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -1375,7 +1546,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/react-toastify/dist/react-toastify.js",
       "name": "cssTransition",
       "chunks": [
-        "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -1383,7 +1554,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/react-toastify/dist/react-toastify.js",
       "name": "toast",
       "chunks": [
-        "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -1391,7 +1562,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/react-toastify/dist/react-toastify.js",
       "name": "useToast",
       "chunks": [
-        "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -1399,100 +1570,79 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/react-toastify/dist/react-toastify.js",
       "name": "useToastContainer",
       "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/components/Form/Form.tsx": {
+      "id": "(app-client)/./app/components/Form/Form.tsx",
+      "name": "*",
+      "chunks": [
+        "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/components/Form/Form.tsx#": {
+      "id": "(app-client)/./app/components/Form/Form.tsx",
+      "name": "",
+      "chunks": [
+        "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/components/Form/Form.tsx#default": {
+      "id": "(app-client)/./app/components/Form/Form.tsx",
+      "name": "default",
+      "chunks": [
+        "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/jokes/[id]/page.tsx": {
+      "id": "(app-client)/./app/jokes/[id]/page.tsx",
+      "name": "*",
+      "chunks": [
         "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
       ],
       "async": false
     },
-    "/Users/mayow/sideprojects/react-typescript-logicea/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/mayow/sideprojects/react-typescript-logicea/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/mayow/sideprojects/react-typescript-logicea/app/styles/Nav.module.scss#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/mayow/sideprojects/react-typescript-logicea/app/components/Navbar.tsx": {
-      "id": "(app-client)/./app/components/Navbar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mayow/sideprojects/react-typescript-logicea/app/components/Navbar.tsx#": {
-      "id": "(app-client)/./app/components/Navbar.tsx",
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/jokes/[id]/page.tsx#": {
+      "id": "(app-client)/./app/jokes/[id]/page.tsx",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
       ],
       "async": false
     },
-    "/Users/mayow/sideprojects/react-typescript-logicea/app/components/Navbar.tsx#default": {
-      "id": "(app-client)/./app/components/Navbar.tsx",
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/jokes/[id]/page.tsx#default": {
+      "id": "(app-client)/./app/jokes/[id]/page.tsx",
       "name": "default",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
       ],
       "async": false
     },
-    "/Users/mayow/sideprojects/react-typescript-logicea/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/jokes/edit/page.tsx": {
+      "id": "(app-client)/./app/jokes/edit/page.tsx",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
       ],
       "async": false
     },
-    "/Users/mayow/sideprojects/react-typescript-logicea/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mayow/sideprojects/react-typescript-logicea/node_modules/next/dist/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/jokes/edit/page.tsx#": {
+      "id": "(app-client)/./app/jokes/edit/page.tsx",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
       ],
       "async": false
     },
-    "/Users/mayow/sideprojects/react-typescript-logicea/node_modules/next/dist/esm/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mayow/sideprojects/react-typescript-logicea/node_modules/next/dist/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/jokes/edit/page.tsx#default": {
+      "id": "(app-client)/./app/jokes/edit/page.tsx",
       "name": "default",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/mayow/sideprojects/react-typescript-logicea/node_modules/next/dist/esm/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
       ],
       "async": false
     }

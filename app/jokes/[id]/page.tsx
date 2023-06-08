@@ -1,19 +1,25 @@
-
+'use client'
 import {getJoke, deleteJoke, saveJoke } from '../../services/jokeService'
-
-// export async function generateStaticParams() {
-//     return [{ id: '1' }];
-// }
-   
+import Form from '../../components/Form/Form'
   
    
 
   export default async function Page({ params }) {
     const joke = await getJoke(params.id);
+    let formData ={
+      id: joke?.id,
+      Title:  joke?.Title,
+      Author:joke?.Author,
+      Views: joke?.Views
+    }
 
-    return <div>
-        <h1>Edit Joke {joke?.id} </h1>
-        <h2>joke title = {joke?.Title}</h2> 
-        <h3>joke Author = {joke?.Author}</h3> 
-    </div>;
+    const handleSubmit = async (jokeData:any)=>{
+      await saveJoke(jokeData)
+  }
+
+    return <>
+        <h1>Edit Joke  </h1>
+        <Form onFormSubmit={handleSubmit} data={formData}/>
+
+    </>;
 }

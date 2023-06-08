@@ -1,15 +1,18 @@
+'use client';
 import React from 'react';
-import { useRouter } from 'next/router';
+import { saveJoke } from '../../services/jokeService'
 
+import Form from '../../components/Form/Form'
 
-function page(props:any) {
+export default  function page() {
+    const handleSubmit = async (jokeData:any)=>{
+        const result = await saveJoke(jokeData)
+        return result
+    }
     return (
-        <div>
-            Create or edit joke page
-        </div>
+            <Form onFormSubmit={handleSubmit} />
     );
 }
 
 
 
-export default page;

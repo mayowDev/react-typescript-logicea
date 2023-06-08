@@ -21,6 +21,11 @@ self.__RSC_CSS_MANIFEST={
       "/Users/mayow/sideprojects/react-typescript-logicea/app/styles/Table.module.scss",
       "/Users/mayow/sideprojects/react-typescript-logicea/app/styles/Nav.module.scss"
     ],
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/jokes/edit/page": [
+      "/Users/mayow/sideprojects/react-typescript-logicea/app/globals.css",
+      "/Users/mayow/sideprojects/react-typescript-logicea/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "/Users/mayow/sideprojects/react-typescript-logicea/app/styles/Nav.module.scss"
+    ],
     "/Users/mayow/sideprojects/react-typescript-logicea/app/jokes/[id]/page": [
       "/Users/mayow/sideprojects/react-typescript-logicea/app/globals.css",
       "/Users/mayow/sideprojects/react-typescript-logicea/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
