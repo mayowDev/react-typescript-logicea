@@ -141,8 +141,11 @@
   align-items: center;
   border: 1px solid darkgray;
   border-radius: 20px;
-  width: 50vw;
+  width: 70vw;
   margin-top: 1rem;
+  position: absolute;
+  bottom: 25px;
+  left: 10%;
 }
 .Pagination_pagination___wqO_ .Pagination_ul___2dyb {
   display: flex;
@@ -203,4 +206,21 @@
 
 .Table_tomato__y_F_j, .Table_green___trKp, .Table_orange__DBP2c, .Table_yellow__8_iym {
   padding: 0.75rem 2rem;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[13].use[5]!./app/components/Button/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.save-button, .delete-button {
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  width: 10%;
+  font-size: 1rem;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: tomato;
 }

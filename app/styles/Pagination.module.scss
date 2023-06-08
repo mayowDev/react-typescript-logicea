@@ -4,8 +4,11 @@
     align-items: center;
     border: 1px solid darkgray;
     border-radius: 20px;
-    width: 50vw;
+    width: 70vw;
     margin-top: 1rem;
+    position: absolute;
+    bottom: 25px;
+    left: 10%;
     .ul{
         display: flex;
         list-style: none;

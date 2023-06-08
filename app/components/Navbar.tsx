@@ -1,19 +1,19 @@
 "use client"
-import Link from 'next/link'
 import NavStyles from '../styles/Nav.module.scss'
 import { useRouter } from 'next/navigation'
 import ThemeToggle from './LightDarkToggle'
+import Button from './Button/Button'
 
 const Nav = () => {
   const route = useRouter()
   return (
     <nav className={NavStyles.nav}>
-      <button className='button'> 
-        <Link className={NavStyles.navLink} href={'/'}>Home Page</Link>
-      </button>
-      <button className='button' onClick={()=>route.push('/jokes/edit')}>
-        Add new joke
-      </button>
+        {/* <Link className={NavStyles.navLink} href={'/'}></Link> */}
+      <Button
+        onClick={()=>route.push('/')}
+        text='Home Page'
+        className='button'
+      />
        <ThemeToggle/>
 
     </nav>

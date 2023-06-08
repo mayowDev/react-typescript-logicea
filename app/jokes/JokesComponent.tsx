@@ -1,12 +1,13 @@
 "use client"
 import React, {useEffect, useState} from 'react';
-
+import { useRouter } from 'next/navigation';
 import Pagination from "../components/common/pagination";
 import { paginate } from "../utils/paginate";
-import { deleteJoke, saveJoke } from '../services/jokeService'
 import Table from '../components/Table/Table';
+import Button from '../components/Button/Button';
 
 export default  function JokesList ({data}:{data:any}) {
+    const router =  useRouter()
     const [jokes, setjokes] = useState([])
     const [currentPage, setCurrentPage] = useState(1)
     const [pageSize, setPageSize] = useState(5)
@@ -16,11 +17,7 @@ export default  function JokesList ({data}:{data:any}) {
         setjokes(data)
     },[data, jokes, setjokes])
 
-    const handleDeleteJoke = (id:number)=> {
-        const newJokes =  filteredJokes.filter((itm:any) => itm.id !== id);
-        localStorage.setItem('jokes', JSON.stringify(newJokes))//delete from state
-        setFilteredJokes(newJokes)
-    }
+  
     const paginatedJokes = paginate(filteredJokes, currentPage, pageSize);
 
     const  handlePageChange = (page:number) => { setCurrentPage(page)};
@@ -34,6 +31,11 @@ export default  function JokesList ({data}:{data:any}) {
                 setPageSize={setPageSize}
                 currentPage={currentPage}
                 setCurrentPage={setCurrentPage}
+            />
+            <Button
+                 onClick={()=>router.push('/jokes/edit')}
+                 text=' Add joke  '
+                 className='add-new-button'
             />
         </>
     );

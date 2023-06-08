@@ -12,15 +12,17 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/jokes/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/jokes/[id]/page.js"
-    ],
     "/jokes/edit/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/jokes/edit/page.css",
       "static/chunks/app/jokes/edit/page.js"
+    ],
+    "/jokes/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/jokes/[id]/page.css",
+      "static/chunks/app/jokes/[id]/page.js"
     ]
   }
 }

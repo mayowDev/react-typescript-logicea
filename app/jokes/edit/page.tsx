@@ -10,7 +10,11 @@ export default  function page() {
         return result
     }
     return (
-            <Form onFormSubmit={handleSubmit} />
+        <>
+        <h2 className='form-title'>Add new Joke</h2>
+         <Form onFormSubmit={handleSubmit} />
+        </>
+           
     );
 }
 

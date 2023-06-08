@@ -82,6 +82,44 @@
 }
 
 .button{cursor: pointer;}
+
+
+.add-new-button {
+    position: fixed;
+    bottom: 25px;
+    right: 15px; 
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    color: #e4e4e4;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.form-title{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[13].use[5]!./app/components/Button/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.save-button, .delete-button {
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  width: 10%;
+  font-size: 1rem;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: tomato;
+}
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[9].use[5]!./app/styles/Nav.module.scss ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
