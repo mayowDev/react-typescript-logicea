@@ -7,6 +7,7 @@ import ThemeContextWrapper from './context/themeWrapper';
 export default function Home() {
   return (
     < ThemeContextWrapper>
+        {/* @ts-expect-error Server Component */}
       <JokesList/>
     </ThemeContextWrapper>
   )

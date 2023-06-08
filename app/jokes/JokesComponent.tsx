@@ -14,7 +14,7 @@ export default  function JokesList ({data}:{data:any}) {
     const [currentPage, setCurrentPage] = useState(1)
     const [pageSize, setPageSize] = useState(5)
     const [filteredJokes, setFilteredJokes] = useState(data)
-    const [user, setUser] = useState('')
+    const [user, setUser] = useState<string | undefined>('')
 
 
     useEffect(()=>{
