@@ -9,7 +9,7 @@ const Table = ({ data }:any) => {
     <table  className={styles.table}>
       <thead className={styles.thead} >
         <tr className={styles.tr}>
-          {columns.map(item=><th className={styles.th}>{item} </th>)}
+          {columns.map(item=><th key={item} className={styles.th}>{item} </th>)}
         </tr>
     </thead>
      <TableBody style={styles}  data={data} />

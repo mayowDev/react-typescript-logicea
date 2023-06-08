@@ -26,7 +26,7 @@ const Dropdown = (props:IDropDown) => {
               onChange={onChange}>
 
           {options?.map(o => (
-            <option  selected={o.value === pageSize} key={o.value} value={o.value}>
+            <option  key={o.value} value={o.value}>
               {o.value}
           </option>
           ))}

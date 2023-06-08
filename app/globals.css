@@ -26,8 +26,27 @@
     cursor: pointer;
 }
 
+.logout-button{
+
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 70px;
+    margin-top: 2rem; 
+
+}
+
 .form-title{
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+.button-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin: 1rem 0;
 }

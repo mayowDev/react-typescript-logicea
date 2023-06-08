@@ -466,6 +466,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./app/login/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/login/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/login/page:static/chunks/app/login/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/login/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/login/page:static/chunks/app/login/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/login/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/login/page:static/chunks/app/login/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/components/Form/Form.tsx": {
       "*": {
         "id": "(sc_client)/./app/components/Form/Form.tsx",
@@ -488,32 +514,6 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/jokes/edit/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/jokes/edit/page.tsx",
-        "name": "*",
-        "chunks": [
-          "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/jokes/edit/page.tsx",
-        "name": "",
-        "chunks": [
-          "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/jokes/edit/page.tsx",
-        "name": "default",
-        "chunks": [
-          "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
         ],
         "async": false
       }
@@ -553,8 +553,8 @@ self.__RSC_MANIFEST={
     "/Users/mayow/sideprojects/react-typescript-logicea/app/page": [
       "static/css/app/page.css"
     ],
-    "/Users/mayow/sideprojects/react-typescript-logicea/app/jokes/edit/page": [
-      "static/css/app/jokes/edit/page.css"
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/login/page": [
+      "static/css/app/login/page.css"
     ],
     "/Users/mayow/sideprojects/react-typescript-logicea/app/jokes/[id]/page": [
       "static/css/app/jokes/[id]/page.css"
@@ -1246,7 +1246,7 @@ self.__RSC_MANIFEST={
       "chunks": [
         "static/css/app/layout.css",
         "static/css/app/page.css",
-        "static/css/app/jokes/edit/page.css",
+        "static/css/app/login/page.css",
         "static/css/app/jokes/[id]/page.css"
       ]
     },
@@ -1516,11 +1516,34 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/login/page.tsx": {
+      "id": "(app-client)/./app/login/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/login/page:static/chunks/app/login/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/login/page.tsx#": {
+      "id": "(app-client)/./app/login/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/login/page:static/chunks/app/login/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mayow/sideprojects/react-typescript-logicea/app/login/page.tsx#default": {
+      "id": "(app-client)/./app/login/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/login/page:static/chunks/app/login/page.js"
+      ],
+      "async": false
+    },
     "/Users/mayow/sideprojects/react-typescript-logicea/app/components/Form/style.scss#": {
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/app/jokes/edit/page.css",
         "static/css/app/jokes/[id]/page.css"
       ]
     },
@@ -1528,7 +1551,6 @@ self.__RSC_MANIFEST={
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/app/jokes/edit/page.css",
         "static/css/app/jokes/[id]/page.css"
       ]
     },
@@ -1553,30 +1575,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/jokes/[id]/page:static/chunks/app/jokes/[id]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mayow/sideprojects/react-typescript-logicea/app/jokes/edit/page.tsx": {
-      "id": "(app-client)/./app/jokes/edit/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mayow/sideprojects/react-typescript-logicea/app/jokes/edit/page.tsx#": {
-      "id": "(app-client)/./app/jokes/edit/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
-      ],
-      "async": false
-    },
-    "/Users/mayow/sideprojects/react-typescript-logicea/app/jokes/edit/page.tsx#default": {
-      "id": "(app-client)/./app/jokes/edit/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/jokes/edit/page:static/chunks/app/jokes/edit/page.js"
       ],
       "async": false
     },
