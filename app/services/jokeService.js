@@ -1,5 +1,5 @@
 import http from "./httpService";
-import { apiUrl } from "../config.js";
+import { apiUrl } from "../config.ts";
 
 const apiEndpoint = apiUrl;
 

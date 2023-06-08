@@ -1,40 +1,29 @@
 # Assignment for Senior Frontend at Logicea
 
-## API
+## Live App
 
-Endpoint URL: https://retoolapi.dev/zu9TVE/jokes
+URL: react-typescript-logicea.vercel.app
 
-### Joke structure
+### Start project Locally
 
 ```JSON
-  {
-    "id": 19,
-    "Title": "Mountaineering",
-    "Body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Author": "crubery6s@simplemachines.org",
-    "Views": 98,
-    "CreatedAt": 1670164409747
-  }
+  git clone https://github.com/mayowDev/react-typescript-logicea
+  Make sure node version is v18 or latest
+  npm install
+  npm run dev
 ```
 
-### HTTP method endpoints
+### Project structure
 
-| Method Type  | Endpoint                          |
-| ------------ | --------------------------------- |
-| GET          | zu9TVE/jokes                      |
-| GET filter   | zu9TVE/jokes?Views=84             |
-| GET by id    | zu9TVE/jokes/1                    |
-| GET paginate | zu9TVE/jokes/?\_page=2&\_limit=10 |
-| POST         | zu9TVE/jokes                      |
-| PUT          | zu9TVE/jokes/1                    |
-| PATCH        | zu9TVE/jokes/1                    |
-| DELETE       | zu9TVE/jokes/1                    |
-
-You can see more routes [here](https://www.npmjs.com/package/json-server#routes)
+- App
+- App/jokes
+- App/page.tsx = Entry to the apllication
+- App/services = CRUD Api calls
+-
 
 ## Specification
 
-In the main page a table should list all the jokes paginated with options for 5 and 10 items per page selected by the user in the very bottom of the table with two buttons for next (>) and previous (<) page and one dropdown to select the 5 or 10 item limit.
+In the main page a table lists all the jokes paginated with options for 5 and 10 items per page selected by the user in the very bottom of the table with two buttons for next (>) and previous (<) page and one dropdown to select the 5 or 10 item limit.
 
 The user should also be able to filter and sort the results by the number of views or by created date.
 
