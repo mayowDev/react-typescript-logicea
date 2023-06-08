@@ -1,11 +1,9 @@
 'use client'
 import {getJoke, deleteJoke, saveJoke } from '../../services/jokeService'
-import Form from '../../components/Form/Form'
-import { useRouter } from 'next/navigation';
-  
+import Form from '../../components/Form/Form'  
    
 
-  export default async function Page({ params }) {
+  export default async function Page({ params }:{params:any}) {
     const joke = await getJoke(params.id);
     if(joke?.id === undefined) return <h1 className='form-title'>404 - Item not found</h1>
     
